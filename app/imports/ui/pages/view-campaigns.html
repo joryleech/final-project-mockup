@@ -1,0 +1,85 @@
+<template name="View_Campaigns">
+
+  <div class="ui center aligned" style="padding:50px;">
+    <b> <h1 class="ui header" style="text-align:center; " >View All Campaigns</h1> </b>
+    <table  class="ui table celled center aligned" style="width:100%">
+      <thead style="width:100%">
+        <tr>
+          <th>Name</th>
+          <th>System</th>
+          <th>Current Players</th>
+          <th> Max</th>
+          <th> Days</th>
+          <th> Location</th>
+          {{#if currentUser}}
+          <th> Join </th>
+          {{/if}}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>The Grapes of Wraiths</th>
+          <th>DND 5e</th>
+          <th>3</th>
+          <th>8</th>
+          <th>S, SU</th>
+          <th>Sinclair Library</th>
+          {{#if currentUser}}
+          <th><input type="button" value="Join"></th>
+          {{/if}}
+        </tr>
+        <tr>
+          <th>A Midsummers Night Scream</th>
+          <th>Pathfinder </th>
+          <th>3</th>
+          <th>8</th>
+          <th>M</th>
+          <th>Sinclair Library</th>
+          {{#if currentUser}}
+          <th><input type="button" value="Join"></th>
+          {{/if}}
+        </tr>
+        <tr>
+          <th>Beauty Is In the Eye of Our BBEG</th>
+          <th>Pathfinder </th>
+          <th>3</th>
+          <th>4</th>
+          <th>S</th>
+          <th>Hamilton Library</th>
+          {{#if currentUser}}
+          <th><input type="button" value="Join"></th>
+          {{/if}}
+        </tr>
+        <tr>
+          <th> The Count of Monty Drizzt-o</th>
+          <th>DND 1e</th>
+          <th>2</th>
+          <th>6</th>
+          <th>M Tu</th>
+          <th>Frear Hall</th>
+          {{#if currentUser}}
+          <th><input type="button" value="Join"></th>
+          {{/if}}
+        </tr>
+        <tr>
+          <th> Of Dragons and Men</th>
+          <th>DND 2e</th>
+          <th>1</th>
+          <th>4</th>
+          <th> Tu</th>
+          <th>Sinclair Library</th>
+          {{#if currentUser}}
+          <th><input type="button" value="Join"></th>
+          {{/if}}
+        </tr>
+
+
+
+      </tbody>
+    </table>
+
+
+
+  </div>
+
+</template>

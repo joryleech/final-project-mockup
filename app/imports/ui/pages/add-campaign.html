@@ -1,0 +1,51 @@
+<template name="Add_Campaign">
+
+  <div class="ui container" style="padding:50px;">
+    <h1 class="ui header"> Create A Campaign </h1>
+    <form style="margin-top:50px;" class="ui form">
+      <h4 class="ui dividing header">Contact Information</h4>
+      <div class="field">
+        <label>Campaign Name *</label>
+        <!-- The Name -->
+        <div class="two fields">
+          <div class="field">
+            <input type="text" name="name" placeholder="Campaign Name">
+          </div>
+        </div>
+        <!-- Address -->
+        <div class="field">
+          <label>Location</label>
+          <input type="text" name="address" placeholder="Address">
+        </div>
+        <label> Max Players </label>
+        <input type="number" placeholder="0">
+
+        <label> Play Days</label>
+        <input type="checkbox" name="monday" value="monday"> Monday
+        <input type="checkbox" name="monday" value="monday"> Tuesday
+        <input type="checkbox" name="monday" value="monday"> Wednesday
+        <input type="checkbox" name="monday" value="monday"> Thursday
+        <input type="checkbox" name="monday" value="monday"> Friday
+        <input type="checkbox" name="monday" value="monday"> Saturday
+        <input type="checkbox" name="monday" value="monday"> Sundays
+
+        <p></p>
+        <label> Start-Time </label>
+        <input type="time">
+        <lable> End-Time </lable>
+        <input type="time">
+
+        <label> Description </label>
+        <TEXTAREA NAME="description" ROWS=6 COLS=30 ></TEXTAREA>
+
+        <p></p>
+
+        <input type="submit" value="Submit"/>
+      </div>
+
+    </form>
+  </div>
+
+
+
+</template>

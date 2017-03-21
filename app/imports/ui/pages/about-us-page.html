@@ -1,0 +1,32 @@
+<template name="About_Us">
+
+  <div class="ui top attached tabular menu">
+    <a class="item" data-tab="Overview"> Overview </a>
+    <a class="active item" data-tab="FAQ"> FAQ </a>
+
+  </div>
+  <div class="ui tab segment bottom attached" data-tab="Overview">
+
+  </div>
+
+  <div class="ui tab active segment bottom attached" data-tab="FAQ">
+    <div class="header ui huge">Who Are We?</div>
+    We are a group of nice people who want everyone to experience the game we all love. Who the heck are you?
+
+    <div class="header ui huge">Does This Cost? </div>
+    Not a cent! We offer this website out of the goodness of our own hearts (and the secret hope that when beholders take over we will be prepared).
+
+    <div class="header ui huge">Can anyone create a campaign? </div>
+    Anyone who is a UH student!
+
+
+  </div>
+
+
+  <script>
+    $('.menu .item')
+        .tab()
+    ;
+  </script>
+
+</template>
