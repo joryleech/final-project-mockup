@@ -1,1 +1,2 @@
-Please see the documentation at: [http://ics-software-engineering.github.io/meteor-application-template/](http://ics-software-engineering.github.io/meteor-application-template/z)
+This application was designed as a way to allow UH Manoa students to find dungeons and dragons games on campus.
+[Home-page](/doc/home-page.png "Logo Title Text 1")
